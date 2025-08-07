@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (pouhw9v27xr3yom0cx1i) or template name (codegen-nextjs-test-2) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("codegen-nextjs-test-2") # Sync sandbox
+# sandbox = await AsyncSandbox.create("codegen-nextjs-test-2") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('codegen-nextjs-test-2')
+
+team_id = "c58b6851-c9fb-44e5-ac13-149540c14ecb"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "codegen-nextjs-test-2"
+template_id = "pouhw9v27xr3yom0cx1i"
